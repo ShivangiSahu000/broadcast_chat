@@ -1,3 +1,6 @@
+## Click on this link to run the application 
+https://wealthy-interesting-booklet.glitch.me
+
 # Chat Application
 
 This is a simple chat application that uses WebSocket for real-time communication between clients. The server is built using Node.js and the `ws` library, while the client interface is served using Express and plain JavaScript.
