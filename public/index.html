@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .username-header {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .message {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .message.system {
+            color: #f39c12; /* Orange */
+            font-style: italic;
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center h-screen bg-gray-100">
+    <div id="chat-container" class="w-96 h-full flex flex-col border border-gray-300 bg-white rounded-lg overflow-hidden shadow-lg">
+        <div id="username-header" class="username-header">Chat Application</div>
+        <div id="chat-box" class="flex-1 overflow-y-auto p-4"></div>
+        <input type="text" id="username" class="p-2 border-b border-gray-300" placeholder="Enter your username" />
+        <input type="text" id="message-input" class="p-2 border-t border-gray-300 hidden" placeholder="Type a message..." />
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
