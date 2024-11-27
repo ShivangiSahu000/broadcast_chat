@@ -31,7 +31,7 @@ This is a simple chat application that uses WebSocket for real-time communicatio
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/yourusername/chat-application.git
-   cd chat-application
+   cd broadcast_chat
 2. **Install dependencies:**
     ```sh
     npm install
